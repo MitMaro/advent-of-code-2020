@@ -14,6 +14,7 @@ Solutions to the [Advent of Code 2020](https://adventofcode.com/2020) written in
 * [Day 3](src/day3.rs)
 * [Day 4](src/day4.rs)
 * [Day 5](src/day5.rs)
+* [Day 6](src/day6.rs)
 
 ## License
 
