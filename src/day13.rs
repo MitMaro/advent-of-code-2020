@@ -60,7 +60,7 @@ pub fn part2(input: &str) -> u64 {
 	let mut m = 1;
 	for (i, route) in notes.bus_routes.iter().enumerate() {
 		if let Some(id) = route.id {
-			while (ans + i as u64) % id != 0 {
+			while (t + i as u64) % id != 0 {
 				t += m;
 			}
 			m *= id;
